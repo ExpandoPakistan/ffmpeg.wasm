@@ -48,8 +48,6 @@ Use FFmpeg directly in your browser without any backend services!!
 ## Supported Formats
 
 - mp4 (x264)
-- webm (vp8/vp9) (^0.8.0)
-- mp3 (^0.8.0)
 
 ---
 

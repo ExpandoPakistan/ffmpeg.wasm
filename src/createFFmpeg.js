@@ -50,7 +50,7 @@ module.exports = (_options = {}) => {
         log(_log.type, _log.message);
       });
       if (ffmpeg === null) {
-        ffmpeg = Module.cwrap('proxy_main', 'number', ['number', 'number']);
+        ffmpeg = Module.cwrap('main', 'number', ['number', 'number']);
       }
       log('info', 'ffmpeg-core loaded');
     }
